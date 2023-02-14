@@ -1,0 +1,3 @@
+C:/Users/markh/CLionProjects/235L1Pizza/cmake-build-debug/CMakeFiles/235L1Pizza.dir
+C:/Users/markh/CLionProjects/235L1Pizza/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/markh/CLionProjects/235L1Pizza/cmake-build-debug/CMakeFiles/rebuild_cache.dir
