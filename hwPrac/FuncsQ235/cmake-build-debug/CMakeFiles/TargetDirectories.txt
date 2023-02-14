@@ -1,0 +1,3 @@
+C:/Users/markh/CLionProjects/FuncsQ235/cmake-build-debug/CMakeFiles/Notes235.dir
+C:/Users/markh/CLionProjects/FuncsQ235/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/markh/CLionProjects/FuncsQ235/cmake-build-debug/CMakeFiles/rebuild_cache.dir

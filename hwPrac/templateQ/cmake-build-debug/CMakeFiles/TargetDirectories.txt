@@ -1,0 +1,3 @@
+C:/Users/markh/CLionProjects/templateQ/cmake-build-debug/CMakeFiles/templateQ.dir
+C:/Users/markh/CLionProjects/templateQ/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/markh/CLionProjects/templateQ/cmake-build-debug/CMakeFiles/rebuild_cache.dir

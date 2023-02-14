@@ -1,0 +1,3 @@
+C:/Users/markh/CLionProjects/LoopsCond235Q/cmake-build-debug/CMakeFiles/LoopsCond235Q.dir
+C:/Users/markh/CLionProjects/LoopsCond235Q/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/markh/CLionProjects/LoopsCond235Q/cmake-build-debug/CMakeFiles/rebuild_cache.dir
