@@ -1,0 +1,3 @@
+C:/Users/markh/CLionProjects/cs235/hwPrac/palindromQ/cmake-build-debug/CMakeFiles/palindromQ.dir
+C:/Users/markh/CLionProjects/cs235/hwPrac/palindromQ/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/markh/CLionProjects/cs235/hwPrac/palindromQ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
