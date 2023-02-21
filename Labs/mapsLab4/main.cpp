@@ -5,6 +5,8 @@
 #include <fstream>
 #include <iostream>
 #include <utility>
+#include <list>
+#include <cstdlib>
 using namespace std;
 int main(int argc, char *argv[]) {
 
@@ -96,8 +98,8 @@ int main(int argc, char *argv[]) {
 
 ////Part 6
     int M=2;
-    map<vector<string>, vector<string>> wordmap;
-    vector<string> state;
+    map<list<string>, vector<string>> wordmap;
+    list<string> state;
     for (int i = 0; i < M; i++) {
         state.push_back("");
     }
@@ -105,7 +107,7 @@ int main(int argc, char *argv[]) {
     for (vector<string>::iterator it=tokens.begin(); it!=tokens.end(); it++) {
         wordmap[state].push_back(*it);
         state.push_back(*it);
-        state.erase(state.begin());
+        state.pop_front();
     }
 
     //Generate the code
@@ -114,10 +116,12 @@ int main(int argc, char *argv[]) {
         state.push_back("");
     }
     for (int i = 0; i < 100; i++) {
-        int ind = rand() % wordmap[state].size();
+        int ind = 1;
+        if (wordmap[state].size() != 0){ind = rand() % wordmap[state].size();}
+        else{ind = rand() % 2;}
         cout << wordmap[state][ind]<<" ";
         state.push_back(wordmap[state][ind]);
-        state.erase(state.begin());
+        state.pop_front();
     }
 
 
