@@ -115,6 +115,7 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < M; i++) {
         state.push_back("");
     }
+    srand(time(NULL));
     for (int i = 0; i < 100; i++) {
         int ind = 1;
         if (wordmap[state].size() != 0){ind = rand() % wordmap[state].size();}
